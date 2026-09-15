@@ -9,17 +9,20 @@
 <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen font-sans">
 
   <!-- NAWIGACJA -->
-  <header class="bg-white shadow-sm sticky top-0 z-50">
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
       <a href="index.html" class="font-black text-2xl tracking-widest text-black">MKRSI</a>
-      <nav class="space-x-6 text-sm font-semibold uppercase text-gray-600 hidden md:flex">
-        <a href="index.html" class="hover:text-black transition">Strona główna</a>
-        <a href="o-nas.html" class="hover:text-black transition">O nas</a>
-        <a href="partnerzy.html" class="hover:text-black transition">Nasi partnerzy</a>
-        <a href="informacje.html" class="hover:text-black transition">Informacje</a>
-        <a href="wydarzenia.html" class="hover:text-black transition">Kalendarz wydarzeń</a>
-        <a href="kontakt.html" class="text-black font-bold">Kontakt</a>
+      <nav class="space-x-8 text-xs font-bold uppercase tracking-wider text-gray-500 hidden md:flex items-center">
+        <a href="index.html" class="hover:text-black transition py-1">Strona główna</a>
+        <a href="o-nas.html" class="hover:text-black transition py-1">O nas</a>
+        <a href="wydarzenia.html" class="hover:text-black transition py-1">Kalendarz wydarzeń</a>
+        <a href="informacje.html" class="hover:text-black transition py-1">Informacje</a>
+        <a href="partnerzy.html" class="hover:text-black transition py-1">Nasi partnerzy</a>
+        <a href="kontakt.html" class="text-black font-extrabold border-b-2 border-black py-1">Kontakt</a>
       </nav>
+      <div class="md:hidden flex items-center">
+        <a href="kontakt.html" class="text-xs font-bold bg-black text-white px-3 py-1.5 rounded-full">Kontakt</a>
+      </div>
     </div>
   </header>
 
